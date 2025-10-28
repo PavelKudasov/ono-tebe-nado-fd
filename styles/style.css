@@ -6,7 +6,7 @@
 
 
 .header {
-    padding:50px 94px 52px 95px; 
+    padding:92px 50px 100px; 
     display:grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items:center;
@@ -27,7 +27,7 @@
     white-space: nowrap;
 }
 
-.nav-a{
+.nav-a {
     font-weight: 400;
     font-style:regular;
     font-size:18px;
@@ -49,7 +49,7 @@
     font-weight:400;
     font-size:18px;
     line-height:24.3px;
-    
+    font-style:normal;
 }
 
 .header_address {
@@ -116,13 +116,15 @@
     text-align: center;
     letter-spacing: 30px;
     margin-top:10px;
+    padding-right:15px;
 }
 
 .right {
     justify-self: end;
     text-align: end;
     letter-spacing: 30px;
-    margin-top:30px;
+    margin-top:21px;
+    padding-right:14px;
 }
 
 .left .right .center {
@@ -168,13 +170,14 @@
 }
 
 
-
+/*еще правки*/
 
 
 .lots {
-    padding-bottom:120px;
+    
     padding-left:auto;
 }
+
 .title_lots {
   padding-top: 179px;
   padding-bottom: 26px;
@@ -261,6 +264,7 @@
     margin-left:24px;
     margin-right:24px;
 }
+
 .about-container {
     display:flex;
     flex-direction: row;
