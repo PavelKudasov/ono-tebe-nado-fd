@@ -27,6 +27,8 @@
     white-space: nowrap;
 }
 
+
+
 .nav-a {
     font-weight: 400;
     font-style:regular;
@@ -36,12 +38,12 @@
 
 .nav-item {
     list-style: circle;
-    border-bottom: 1px solid black;
+    
 }
 
-.active {
+ li, .active {
     list-style:none;
-    border:none;
+    text-decoration: none;
 }
 
 .address {
@@ -50,6 +52,7 @@
     font-size:18px;
     line-height:24.3px;
     font-style:normal;
+    
 }
 
 .header_address {
@@ -105,6 +108,8 @@
     
 }
 
+/*подогнал под макет*/
+
 .left {
     justify-self: flex-start;
     text-align: left;
@@ -115,8 +120,8 @@
     justify-self: center;
     text-align: center;
     letter-spacing: 30px;
-    margin-top:10px;
-    padding-right:15px;
+    margin-top:16px;
+    padding-right:20px;
 }
 
 .right {
@@ -124,7 +129,7 @@
     text-align: end;
     letter-spacing: 30px;
     margin-top:21px;
-    padding-right:14px;
+    padding-right:20px;
 }
 
 .left .right .center {
@@ -197,13 +202,18 @@
   padding: 0; 
   margin: 0 auto;
   margin-left: 20px; 
+  
 }
 
 .card_lots {
   max-width: 334px;
   min-height: 596px;
   flex-grow: 1;
+  
 }
+
+
+
 
 .card {
   position: relative;
@@ -235,9 +245,17 @@
   font-size: 22px;
   font-weight: 700;
   line-height: 120%;
-  text-decoration-line: underline;
+  
   text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
 }
+
+
+
+
 
 .text_on_card {
   color: white;
@@ -385,4 +403,11 @@ footer {
 
 .glav {
     text-decoration: none;
+}
+
+.tel, .mail, .header_address{
+  text-decoration: underline;
+  text-decoration-color: black; /* подчеркивания */
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
