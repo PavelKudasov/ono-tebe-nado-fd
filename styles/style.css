@@ -2,7 +2,7 @@
     font-family: "Raleway", sans-serif;
 }
 
-
+ /* Commit 4 */
 
 
 .header {
@@ -253,7 +253,9 @@
   text-decoration-thickness: 1px;
 }
 
-
+.cards-style{
+  text-decoration: none; /*добавил свойство*/
+}
 
 
 
@@ -377,7 +379,7 @@ footer {
     font-size:18px;
     line-height:24.3px;
     white-space:nowrap;
-    
+    font-style:normal; /*добавил свойство*/
     
 }
 
@@ -405,7 +407,7 @@ footer {
     text-decoration: none;
 }
 
-.tel, .mail, .header_address{
+.tel, .mail{
   text-decoration: underline;
   text-decoration-color: black; /* подчеркивания */
   text-decoration-thickness: 1px;
